@@ -29,6 +29,14 @@ Gold Layer (Fact & Dimension Tables)
 ↓
 Analytics / Reporting
 
+
+I designed a Medallion Architecture pipeline in Azure Databricks.
+Raw retail data is ingested into the Bronze layer and stored in Delta format.
+The Silver layer applies cleaning and transformations.
+The Gold layer builds dimensional and fact tables for analytics.
+The entire pipeline is orchestrated using Databricks Workflows with task dependencies to ensure layer-by-layer execution.
+
+
 ## 📂 Folder Structure
 databricks-medallion-retail-pipeline/bronze/silver/gold
 
