@@ -30,22 +30,7 @@ Gold Layer (Fact & Dimension Tables)
 Analytics / Reporting
 
 ## 📂 Folder Structure
-databricks-medallion-retail-pipeline/
-│
-├── bronze/
-│ └── bronze_ingestion.py
-│
-├── silver/
-│ └── silver_transformation.py
-│
-├── gold/
-│ ├── gold_dim_customers.py
-│ ├── gold_dim_products.py
-│ └── gold_fact_sales.py
-│
-├── images/
-└── README.md
-
+databricks-medallion-retail-pipeline
 
 ---
 
@@ -55,9 +40,6 @@ databricks-medallion-retail-pipeline/
 - Stores data in Delta format
 - Ensures schema consistency
 
-File:
-
-
 ---
 
 ## 🔹 Silver Layer
@@ -65,9 +47,6 @@ File:
 - Cleans null values
 - Applies transformations
 - Standardizes schema
-
-File:
-
 
 ---
 
@@ -78,9 +57,6 @@ Creates business-level tables:
 - Customer Dimension
 - Product Dimension
 - Sales Fact Table
-
-Files:
-
 
 ---
 
@@ -120,8 +96,7 @@ Each task depends on the successful completion of the previous layer.
 ## 📚 Learning Reference
 
 This project was implemented as part of hands-on learning inspired by:
-
-
+👉 DataWithBaraa/databricks_bootcamp_2026/
 The architecture was recreated and implemented independently in Azure Databricks.
 
 ---
@@ -137,5 +112,5 @@ The architecture was recreated and implemented independently in Azure Databricks
 
 ## 👩‍💻 Author
 
-Your Name  
+Pooja DM  
 Aspiring Data Engineer 🚀
