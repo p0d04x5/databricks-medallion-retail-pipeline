@@ -28,3 +28,114 @@ Silver Layer (Cleaned & Transformed)
 Gold Layer (Fact & Dimension Tables)
 ↓
 Analytics / Reporting
+
+## 📂 Folder Structure
+databricks-medallion-retail-pipeline/
+│
+├── bronze/
+│ └── bronze_ingestion.py
+│
+├── silver/
+│ └── silver_transformation.py
+│
+├── gold/
+│ ├── gold_dim_customers.py
+│ ├── gold_dim_products.py
+│ └── gold_fact_sales.py
+│
+├── images/
+└── README.md
+
+
+---
+
+## 🔹 Bronze Layer
+
+- Loads raw retail data
+- Stores data in Delta format
+- Ensures schema consistency
+
+File:
+
+
+---
+
+## 🔹 Silver Layer
+
+- Cleans null values
+- Applies transformations
+- Standardizes schema
+
+File:
+
+
+---
+
+## 🔹 Gold Layer
+
+Creates business-level tables:
+
+- Customer Dimension
+- Product Dimension
+- Sales Fact Table
+
+Files:
+
+
+---
+
+## ⚙️ Pipeline Orchestration
+
+The pipeline is orchestrated using **Databricks Workflows** with task dependencies:
+
+1️⃣ Bronze Ingestion  
+2️⃣ Silver Transformation  
+3️⃣ Gold Dimension Tables  
+4️⃣ Gold Fact Table  
+
+Each task depends on the successful completion of the previous layer.
+
+---
+
+## 🛠 Tech Stack
+
+- Azure Databricks
+- Apache Spark (PySpark)
+- Delta Lake
+- Databricks Workflows
+- Python
+
+---
+
+## 📊 Key Concepts Implemented
+
+- Medallion Architecture
+- Incremental Processing
+- Delta Lake Optimization
+- Fact & Dimension Modeling
+- Workflow Orchestration
+
+---
+
+## 📚 Learning Reference
+
+This project was implemented as part of hands-on learning inspired by:
+
+
+The architecture was recreated and implemented independently in Azure Databricks.
+
+---
+
+## 🎯 How To Run
+
+1. Import notebooks into Azure Databricks
+2. Create cluster
+3. Configure workflow tasks
+4. Run pipeline end-to-end
+
+---
+
+## 👩‍💻 Author
+
+Your Name  
+Aspiring Data Engineer 🚀
