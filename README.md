@@ -30,7 +30,7 @@ Gold Layer (Fact & Dimension Tables)
 Analytics / Reporting
 
 ## 📂 Folder Structure
-databricks-medallion-retail-pipeline
+databricks-medallion-retail-pipeline/bronze/silver/gold
 
 ---
 
@@ -96,17 +96,8 @@ Each task depends on the successful completion of the previous layer.
 ## 📚 Learning Reference
 
 This project was implemented as part of hands-on learning inspired by:
-👉 DataWithBaraa/databricks_bootcamp_2026/
-The architecture was recreated and implemented independently in Azure Databricks.
-
----
-
-## 🎯 How To Run
-
-1. Import notebooks into Azure Databricks
-2. Create cluster
-3. Configure workflow tasks
-4. Run pipeline end-to-end
+👉 DataWithBaraa - databricks_bootcamp_2026
+The architecture was recreated and implemented independently in Databricks.
 
 ---
 
