@@ -19,3 +19,12 @@ It is fully orchestrated using **Databricks Workflows**.
 ---
 
 ## 🏗 Architecture
+Raw Data
+↓
+Bronze Layer (Raw Ingestion)
+↓
+Silver Layer (Cleaned & Transformed)
+↓
+Gold Layer (Fact & Dimension Tables)
+↓
+Analytics / Reporting
