@@ -1,5 +1,3 @@
-# databricks-medallion-retail-pipeline
-
 # 🚀 Databricks Medallion Retail Pipeline
 
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
